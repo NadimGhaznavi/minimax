@@ -1,5 +1,6 @@
-#!/usr/bin/env/ruby
+#!/usr/bin/env ruby
 # frozen_string_literal: true
+
 require "w3c_validators"
 
 def validator(file)
@@ -19,7 +20,7 @@ def validate(file)
 
   return puts "Valid!" if results.errors.empty?
 
-  results.errors.each { |err| puts err.to_s }
+  results.errors.each { |err| puts err }
   exit 1
 end
 
