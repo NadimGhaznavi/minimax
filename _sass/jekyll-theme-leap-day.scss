@@ -70,7 +70,7 @@ ul{
 
 strong {
   font-weight: bold;
-  color: #baa798;
+  color: #b68660;
 }
 
 .wrapper {
@@ -218,7 +218,7 @@ header {
     border: 1px solid #472600;
     background: linear-gradient(#523307, #392304);
     border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px #c9763e1a;
+    box-shadow: inset 0px 1px 0px rgba(255, 182, 36, 0.4), 0px 1px 1px #c9763e1a;
     background-color: #472f19;
     margin-left: 5px;
     padding: 10px 12px;
@@ -231,7 +231,7 @@ header {
     text-align:center;
 
     &:hover {
-      background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
+      background: linear-gradient(#674423, #674423);
       background-color: #ffeca0;
     }
   }
@@ -408,7 +408,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #201203;
     border-width:1px 0;
     padding:20px 0;
     margin: 190px auto 20px;
