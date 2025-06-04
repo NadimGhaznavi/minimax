@@ -17,7 +17,7 @@ body {
   font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url(../images/body-background.png) #211608;
+  background: url(../images/body-background.png) #3a2406;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,11 +39,11 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color:#b78049;
+  color:#daa167;
 }
 
 h3, h4, h5, h6 {
-  color:#986d42;
+  color:#daa167;
 }
 
 h3 {
@@ -52,14 +52,14 @@ h3 {
 }
 
 a {
-  color:#8da3be;
+  color:#3381e0;
   font-weight:400;
   text-decoration:none;
 }
 
 a small {
   font-size:11px;
-  color:#8da3be;
+  color:#3381e0;
   margin-top:-0.6em;
   display:block;
 }
@@ -208,9 +208,9 @@ header {
   margin-right:-382px;
   position: fixed;
   top: 115px;
-  background: #211608;
-  border: 1px solid #000000;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+  background: #a15600;
+  border: 1px solid #592f00;
+  box-shadow: 0px 1px 3px rgba(91, 52, 15, 0.25);
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
 
@@ -218,14 +218,14 @@ header {
     border: 1px solid #472600;
     background: linear-gradient(rgb(113, 61, 21), rgb(113, 61, 21));
     border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(201, 118, 62, 0.1);
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px #c9763e1a;
     background-color: #7c4200;
     margin-left: 5px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    color:#b08554;
+    color:#b56f32;
     font-weight: bold;
     display:inline-block;
     text-align:center;
@@ -294,7 +294,7 @@ section {
   margin: 20px 0;
   margin-top: 190px;
   position:relative;
-  background: #432d17;
+  background: #2d1e10;
   border-radius: 3px;
   border: 1px solid #cbcbcb;
   box-shadow: 0px 1px 2px rgba(0,0,0,.09), inset 0px 0px 2px 2px rgba(255,255,255,.5), inset 0 0 5px 5px rgba(255,255,255,.4);
